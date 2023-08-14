@@ -11,7 +11,12 @@ int main(){
     printf("\nPlease enter your name\n");
     scanf("%s", &name);
     printf("Hello %s", name);
-    
+
+    // character declarations
+    char letter0 = 'A';
+    printf("The character added is %c", letter0);
+    printf("\nThe character's value is %d", letter0);
+
     
     return 0;
 }
